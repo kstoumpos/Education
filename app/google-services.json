@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "881835876590",
+    "project_id": "education-3ccf8"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881835876590:android:4c824dba71870335",
+        "android_client_info": {
+          "package_name": "com.education"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqzj2OxSaMSULLHDmRZx7I2j-z_2yrego"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

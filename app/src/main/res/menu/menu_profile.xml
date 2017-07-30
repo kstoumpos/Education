@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.education.ProfileActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="@string/menu_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_attendence"
+        android:orderInCategory="100"
+        android:title="@string/menu_attendence"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exam"
+        android:orderInCategory="100"
+        android:title="@string/menu_exam"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_result"
+        android:orderInCategory="100"
+        android:title="@string/menu_result"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_teacher"
+        android:orderInCategory="100"
+        android:title="@string/menu_teacher"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_growth"
+        android:orderInCategory="100"
+        android:title="@string/menu_growth"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_holiday"
+        android:orderInCategory="100"
+        android:title="@string/menu_holiday"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_news"
+        android:orderInCategory="100"
+        android:title="@string/menu_news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_notice"
+        android:orderInCategory="100"
+        android:title="@string/menu_notice"
+        app:showAsAction="never" />
+
+</menu>

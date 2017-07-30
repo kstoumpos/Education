@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_enquiry_message"
+        android:background="@color/color_11"
+        android:textColor="#ffffff"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_subject"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="@string/prompt_message"
+        android:id="@+id/message" />
+
+    </LinearLayout>
+</LinearLayout>
